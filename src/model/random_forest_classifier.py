@@ -6,6 +6,6 @@ from sklearn.pipeline import Pipeline
 
 def make_model():
     return Pipeline([
-        ("tfidf_vectorizer", TfidfVectorizer(stop_words=stopwords.words('french'), strip_accents='unicode')),
+        ("tfidf_vectorizer", TfidfVectorizer(stop_words=stopwords.words('french'))),
         ("random_forest", RandomForestClassifier()),
     ])

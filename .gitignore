@@ -194,3 +194,6 @@ cython_debug/
 *~
 
 .idea/*
+
+data/raw/*
+!data/raw/.gitkeep
